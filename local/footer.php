@@ -27,12 +27,15 @@
 					},
 					messages: {
 						name: "Введите Ваше имя",
+						mail: "Введите Вашу почту",
 						phone: "Введите Ваш телефон",
 					},
 					submitHandler: function(form) {
 						var t = {
 							name: jQuery('.form-' + index).find("input[name=name]").val(),
+							mail: jQuery('.form-' + index).find("input[name=mail]").val(),
 							phone: jQuery('.form-' + index).find("input[name=phone]").val(),
+							textarea: jQuery('.form-' + index).find("textarea[name=textarea]").val(),
 							subject: jQuery('.form-' + index).find("input[name=subject]").val()
 						};
 						ajaxSend('.form-' + index, t);
