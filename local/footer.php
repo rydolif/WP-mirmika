@@ -50,7 +50,10 @@
 					url: "/wp-content/themes/local/sendmail.php",
 					data: data,
 					success: function() {
-						document.querySelector('.modal').style.display = 'none';
+						let test = document.querySelectorAll('.modal');
+						test.forEach(element => {
+							element.style.display = 'none';
+						});
 						document.querySelector('#thanks').style.display = 'flex';
 						setTimeout(function() {
 							$(formName).trigger('reset');

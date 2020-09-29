@@ -42,7 +42,13 @@
 				<input type="text" name="name" placeholder="Имя" class="modal__input" required>
 			</div>
 			<div class="modal__line">
+				<input type="mail" name="mail" placeholder="Почта" class="modal__input" required>
+			</div>
+			<div class="modal__line">
 				<input type="tel" name="phone" placeholder="Телефон" class="modal__input" required>
+			</div>
+			<div class="modal__line">
+				<textarea name="textarea" placeholder="Задайте нам свой вопрос" rows="5"></textarea>
 			</div>
 			<div class="modal__line">
 				<button type="submit" class="modal__btn" name="submit">Отправить</button>
@@ -65,7 +71,13 @@
 				<input type="text" name="name" placeholder="Имя" class="modal__input" required>
 			</div>
 			<div class="modal__line">
+				<input type="mail" name="mail" placeholder="Почта" class="modal__input" required>
+			</div>
+			<div class="modal__line">
 				<input type="tel" name="phone" placeholder="Телефон" class="modal__input" required>
+			</div>
+			<div class="modal__line">
+				<textarea name="textarea" placeholder="Задайте нам свой вопрос" rows="5"></textarea>
 			</div>
 			<div class="modal__line">
 				<button type="submit" class="modal__btn" name="submit">Отправить</button>
@@ -88,7 +100,13 @@
 				<input type="text" name="name" placeholder="Имя" class="modal__input" required>
 			</div>
 			<div class="modal__line">
+				<input type="mail" name="mail" placeholder="Почта" class="modal__input" required>
+			</div>
+			<div class="modal__line">
 				<input type="tel" name="phone" placeholder="Телефон" class="modal__input" required>
+			</div>
+			<div class="modal__line">
+				<textarea name="textarea" placeholder="Задайте нам свой вопрос" rows="5"></textarea>
 			</div>
 			<div class="modal__line">
 				<button type="submit" class="modal__btn" name="submit">Отправить</button>
